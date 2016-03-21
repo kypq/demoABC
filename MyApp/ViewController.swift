@@ -20,6 +20,8 @@ class ViewController: UIViewController , UITableViewDataSource, UITableViewDeleg
     @IBOutlet weak var windSpeed: UILabel!
     @IBOutlet weak var humidity: UILabel!
     
+    var demoGit : String = ""
+    
     var dataOtherDate = []
     var coreData = [NSManagedObject]()
     
